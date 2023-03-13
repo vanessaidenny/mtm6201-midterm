@@ -1,0 +1,124 @@
+:root {
+  --color-primary: #2E6056;
+  --color-secondary: #5A3D32;
+  --color-tertiary: #73BAAC;
+  --color-text: #212121;
+  --color-accent: #BBBBBB;
+  --color-white: #FFFFFF;
+}
+
+
+/* DEFAULT STYLES */
+
+body, p, button {
+  font-family: 'Nunito';
+}
+
+h1 {
+  font-family: 'Berlin Sans FB Demi', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.2;
+  padding-bottom: 6px;
+}
+
+h2 {
+  font-family: 'Berlin Sans FB Demi', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.2;
+  padding-bottom: 6px;
+}
+
+h3 {
+  font-family: 'Berlin Sans FB Demi', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2;
+  padding-bottom: 6px;
+}
+
+h4 {
+  font-family: 'Berlin Sans FB Demi', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2;
+  padding-bottom: 6px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.2;
+  padding-bottom: 6px;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* HEADER */
+
+header .container {
+  align-items: center;
+  background-color: var(--color-tertiary);
+  display: flex;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo {
+  align-items: center;
+  display: flex;
+}
+
+header .logo img {
+  height: 50px;
+  width: 50px;
+}
+
+/* positioning menu name */
+header .menu-mobile, header .search-mobile {
+  display: block;
+}
+
+header .search-mobile button {
+  background: none;
+  border: none;
+}
+
+header .search-mobile button i {
+  font-size: 18px;
+}
+
+header .menu-mobile {
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 25px;
+}
+
+/* hide menu and search bar */
+header .container .menu, header .container .search {
+  display: none;
+}
+
+header .banner {
+  align-items: flex-start;
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(../img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: center;
+  padding: 0 16px;
+}
+
+header .banner button {
+  background-color: var(--color-accent);
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  padding: 5px 15px;
+}

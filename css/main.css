@@ -172,7 +172,7 @@ footer {
   text-align: center;
 }
 
-footer p {
+footer p, footer a {
   margin-bottom: 0;
   margin-top: 0.5em;
   font-size: 0.9rem;

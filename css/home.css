@@ -1,0 +1,89 @@
+/* DEFAULT STYLES */
+
+section {
+  border-bottom: 1px solid var(--color-accent);
+  margin: 10px 0;
+}
+
+section .flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+section .flex-container div {
+  margin-right: 16px;
+}
+
+section:last-child {
+  border: none;
+}
+
+section .flex-container div {
+  cursor: pointer;
+}
+
+.news img {
+  border: 1px solid var(--color-accent);
+  height: 280px;
+  width: 280px;
+  object-fit: cover;
+}
+
+.products img, .services img {
+  border: 1px solid var(--color-accent);
+  border-radius: 80%;
+  height: 280px;
+  width: 280px;
+  object-fit: cover;
+}
+
+.legend {
+  color: var(--color-secondary);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 6px;
+}
+
+.legend p {
+  text-decoration: underline;
+}
+
+section .more-link {
+  font-weight: bold;
+  text-align: end;
+  text-decoration: underline;
+  margin-bottom: 16px;
+}
+
+section a, section a:active {
+  color: var(--color-primary);
+}
+
+section a i {
+  padding-left: 10px;
+}
+
+
+/* DESKTOP STYLES: above 1200px */
+@media screen and (min-width: 1200px) {
+  
+  section .flex-container {
+    justify-content: space-around;
+  }
+
+  .news img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .products img, .services img {
+    height: 200px;
+    width: 200px;
+  }
+
+  section .more-link {
+    margin-bottom: 30px;
+  }
+
+}

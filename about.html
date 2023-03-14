@@ -23,55 +23,63 @@
 </head>
 
 <body>
+  <div class="skip-links">
+    <ul>
+      <li><a href="#nav" aria-label="Go to the main navigation of the page">Skip to main nav</a></li>
+      <li><a href="#main" aria-label="Go to the main content of the page">Skip to main content</a></li>
+    </ul>
+  </div>
+
   <header>
     <div class="container">
       <div class="logo">
-        <a href="index.html">
+        <a href="index.html" aria-label="Go to home page">
           <img src="img/pet-fun-logo.png" alt="Pet Fun logo">
         </a>
         <div class="menu-mobile">
-          About Us
+          <h1 role="heading">About Us</h1>
         </div>
       </div>
       <div class="menu">
-        <nav>
+        <nav role="navigation" id="nav">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li class="current"><a href="about.html">About Us</a></li>
-            <li><a href="under-construction.html">News</a></li>
-            <li><a href="under-construction.html">Products</a></li>
-            <li><a href="under-construction.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html" aria-label="Go to home page">Home</a></li>
+            <li class="current"><a href="about.html" aria-label="Go to about page">About Us</a></li>
+            <li><a href="under-construction.html" aria-label="Go to news page">News</a></li>
+            <li><a href="under-construction.html" aria-label="Go to products page">Products</a></li>
+            <li><a href="under-construction.html" aria-label="Go to services page">Services</a></li>
+            <li><a href="contact.html" aria-label="Go to contact page">Contact</a></li>
           </ul>
         </nav>
       </div>
       <div class="search">
         <form>
-          <input type="search" id="search" name="search" placeholder=""><i class="fa fa-search"></i>
+          <input type="search" id="search" name="search" placeholder=""><i aria-label="Search icon"
+            class="fa fa-search"></i>
         </form>
       </div>
       <div class="search-mobile">
-        <button><i class="fa fa-solid fa-bars"></i></button>
+        <button aria-label="Open the menu card"><i aria-label="Hamburger icon" class="fa fa-solid fa-bars"></i></button>
       </div>
     </div>
-    <div class="banner">
-      <h1>Pet Fun</h1>
-      <h2>everything for your pet</h2>
+    <div role="banner" class="banner">
+      <h1 role="heading">Pet Fun</h1>
+      <h2 role="heading">everything for your pet</h2>
       <p>Find the best items and food for your pet</p>
-      <button onclick="window.location.href='/under-construction.html'">Products <i
-          class="fa fa-solid fa-chevron-right"></i></button>
+      <button aria-label="Go to products page" onclick="window.location.href='/under-construction.html'">Products <i
+          aria-label="Right arrow" class="fa fa-solid fa-chevron-right"></i></button>
     </div>
   </header>
 
-  <main>
+  <main role="main" id="main">
     <div class="container">
       <div class="content-title">
-        <h2>About Us</h2>
+        <h2 role="heading">About Us</h2>
       </div>
       <section>
         <div class="flex-container">
           <div class="text">
-            <h3>Background</h3>
+            <h3 role="heading">Background</h3>
             <p>
               We are in the pet shop market since 2002. We started out selling just collars and clothes, and after just
               two years of opening, we started to offer pet-related products and services, such as pet food, toys,
@@ -82,18 +90,19 @@
             <img src="img/video.png" alt="Video Institutional">
             <div class="legend">
               <p>Video Institutional</p>
-              <i class="fa fa-solid fa-heart"></i>
+              <i aria-label="Heart icon" class="fa fa-solid fa-heart"></i>
             </div>
           </div>
         </div>
         <div class="more-link">
-          <a href="">read more<i class="fa fa-solid fa-chevron-down"></i></a>
+          <a href="" aria-label="Read more">read more<i aria-label="Down arrow"
+              class="fa fa-solid fa-chevron-down"></i></a>
         </div>
       </section>
       <section>
         <div class="mission flex-container">
           <div class="text">
-            <h3>Mission Statement</h3>
+            <h3 role="heading">Mission Statement</h3>
             <p>
               Pet Fun is dedicated to providing the highest quality products and services to our customers and their
               beloved pets. We strive to create a welcoming and educational environment that promotes responsible pet
@@ -112,13 +121,14 @@
           </div>
         </div>
         <div class="more-link">
-          <a href="">read more<i class="fa fa-solid fa-chevron-down"></i></a>
+          <a href="" aria-label="Read more">read more<i aria-label="Down arrow"
+              class="fa fa-solid fa-chevron-down"></i></a>
         </div>
       </section>
       <section>
         <div class="flex-container">
           <div class="text">
-            <h3>Vision Statement</h3>
+            <h3 role="heading">Vision Statement</h3>
             <p>
               Pet Fun vision is to be the leading pet shop in our community, known for our exceptional customer service,
               knowledgeable staff, and commitment to animal welfare. We aim to inspire and educate pet owners to provide
@@ -132,17 +142,20 @@
           </div>
         </div>
         <div class="more-link">
-          <a href="">read more<i class="fa fa-solid fa-chevron-down"></i></a>
+          <a href="" aria-label="Read more">read more<i aria-label="Down arrow"
+              class="fa fa-solid fa-chevron-down"></i></a>
         </div>
       </section>
     </div>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <div class="container">
-      <h4>Pet Fun</h4>
-      <p>For any additional information, please do not hesitate to <a href="contact.html">contact us.</a></p>
+      <h4 role="heading">Pet Fun</h4>
+      <p>For any additional information, please do not hesitate to <a href="contact.html"
+          aria-label="Go to contact us">contact us.</a></p>
       <p class="copyright">&copy; Copyright</p>
+      <a href="#top" aria-label="Go back to the top of the page">Back to Top</a>
     </div>
   </footer>
 </body>

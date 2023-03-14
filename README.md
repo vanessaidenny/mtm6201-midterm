@@ -23,7 +23,7 @@ This midterm project is to build a responsive website based on your website prot
 - [x] Your site should be functional and visually appealing.
 - [x] Your site should respond to different screen sizes. CSS grid, flexbox, or any combination of the two may be used to create the layout of the page.
 - [x] No specific media queries and breakpoints are required but should be used as necessary.
-- [] The site must follow accessibility guidelines using proper contrast, alt text for images, skip links, aria roles, proper HTML syntax and schema information.
+- [x] The site must follow accessibility guidelines using proper contrast, alt text for images, skip links, aria roles, proper HTML syntax and schema information.
 - [] All images on the site should be optimized for web use, and responsive image techniques should be incorporated. All images must have a minimum of 2 image sizes for optimizing, images for small and large screens.
 - [x] At least two noticeable animations should be used to enhance the overall user experience of the site, with at least one using the animation property.
 - [x] Set up GitHub Pages website for this repository

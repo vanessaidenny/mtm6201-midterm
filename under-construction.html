@@ -24,60 +24,68 @@
 </head>
 
 <body>
+  <div class="skip-links">
+    <ul>
+      <li><a href="#nav" aria-label="Go to the main navigation of the page">Skip to main nav</a></li>
+      <li><a href="#main" aria-label="Go to the main content of the page">Skip to main content</a></li>
+    </ul>
+  </div>
+
   <header>
     <div class="container">
       <div class="logo">
-        <a href="index.html">
+        <a href="index.html" aria-label="Go to home page">
           <img src="img/pet-fun-logo.png" alt="Pet Fun logo">
         </a>
         <div class="menu-mobile">
-          Home
+          <h1 role="heading">Under Construction Page</h1>
         </div>
       </div>
       <div class="menu">
-        <nav>
+        <nav role="navigation" id="nav">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="under-construction.html">News</a></li>
-            <li><a href="under-construction.html">Products</a></li>
-            <li><a href="under-construction.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html" aria-label="Go to home page">Home</a></li>
+            <li><a href="about.html" aria-label="Go to about page">About Us</a></li>
+            <li><a href="under-construction.html" aria-label="Go to news page">News</a></li>
+            <li><a href="under-construction.html" aria-label="Go to products page">Products</a></li>
+            <li><a href="under-construction.html" aria-label="Go to services page">Services</a></li>
+            <li><a href="contact.html" aria-label="Go to contact page">Contact</a></li>
           </ul>
         </nav>
       </div>
       <div class="search">
-        <form>
-          <input type="search" id="search" name="search" placeholder=""><i class="fa fa-search"></i>
-        </form>
+        <input type="search" id="search" name="search" placeholder=""><i aria-label="Search icon"
+          class="fa fa-search"></i>
       </div>
       <div class="search-mobile">
-        <button><i class="fa fa-solid fa-bars"></i></button>
+        <button aria-label="Open the menu card"><i aria-label="Hamburger icon" class="fa fa-solid fa-bars"></i></button>
       </div>
     </div>
-    <div class="banner">
-      <h1>Pet Fun</h1>
-      <h2>everything for your pet</h2>
+    <div role="banner" class="banner">
+      <h1 role="heading">Pet Fun</h1>
+      <h2 role="heading">everything for your pet</h2>
       <p>Find the best items and food for your pet</p>
-      <button onclick="window.location.href='/under-construction.html'">Products <i
-          class="fa fa-solid fa-chevron-right"></i></button>
+      <button aria-label="Go to products page" onclick="window.location.href='/under-construction.html'">Products <i
+          aria-label="Right arrow" class="fa fa-solid fa-chevron-right"></i></button>
     </div>
   </header>
 
-  <main>
+  <main role="main" id="main">
     <div class="container">
       <div class="under-construction">
-        <p>This page is under construction</p>
-        <i class="fa fa-solid fa-wrench"></i>
+        <h2 role="heading">This page is under construction</h2>
+        <i aria-role="Wrench icon" class="fa fa-solid fa-wrench"></i>
       </div>
     </div>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <div class="container">
-      <h4>Pet Fun</h4>
-      <p>For any additional information, please do not hesitate to <a href="contact.html">contact us.</a></p>
+      <h4 role="heading">Pet Fun</h4>
+      <p>For any additional information, please do not hesitate to <a href="contact.html"
+          aria-label="Go to contact us">contact us.</a></p>
       <p class="copyright">&copy; Copyright</p>
+      <a href="#top" aria-label="Go back to the top of the page">Back to Top</a>
     </div>
   </footer>
 </body>

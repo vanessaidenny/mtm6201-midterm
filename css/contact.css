@@ -100,7 +100,7 @@ iframe  {
   border: 0;
 }
 
-button {
+.send input button, .team-card button {
   background-color: var(--color-tertiary);
   border: none;
   border-radius: 30px;

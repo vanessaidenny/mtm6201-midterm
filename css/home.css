@@ -67,6 +67,10 @@ section a i {
 
 /* DESKTOP STYLES: above 1200px */
 @media screen and (min-width: 1200px) {
+
+  section {
+    margin: 20px;
+  }
   
   section .flex-container {
     justify-content: space-around;

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Fun</title>
+  <link rel="shortcut icon" type="image/png" href="img/pet-fun-logo.png">
+
+  <!-- CSS Import -->
+  <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main-desktop.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/contact.css">
+
+  <!-- Font Family -->
+  <link href="https://fonts.cdnfonts.com/css/berlin-sans-fb-demi" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/pet-fun-logo.png" alt="Pet Fun logo">
+        </a>
+        <div class="menu-mobile">
+          Contact Us
+        </div>
+      </div>
+      <div class="menu">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="under-construction.html">News</a></li>
+            <li><a href="under-construction.html">Products</a></li>
+            <li><a href="under-construction.html">Services</a></li>
+            <li class="current"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="search">
+        <form>
+          <input type="search" id="search" name="search" placeholder=""><i class="fa fa-search"></i>
+        </form>
+      </div>
+      <div class="search-mobile">
+        <button><i class="fa fa-search"></i></button>
+        <button><i class="fa fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+    <div class="banner">
+      <h1>Pet Fun</h1>
+      <h2>everything for your pet</h2>
+      <p>Find the best items and food for your pet</p>
+      <button onclick="window.location.href='/under-construction.html'">Products <i
+          class="fa fa-solid fa-chevron-right"></i></button>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="content-title">
+        <h2>Contact Us</h2>
+      </div>
+      <div class="info-section">
+        <section>
+          <div class="flex-container">
+            <div class="text">
+              <h3>Operating Hours</h3>
+              <p>8:00 a.m. to 6:00 p.m. on Business Days</p>
+              <p>8:00 a.m. to 2:00 p.m. on Weekends</p>
+              <p>8:00 a.m. to 12:00 p.m. on Holidays</p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="flex-container">
+            <div class="text">
+              <h3>Location</h3>
+            </div>
+          </div>
+          <div class="media rectangle-img">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1401.5819931733772!2d-75.80321394170142!3d45.36568582924036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce01227452795f%3A0x55ca4fb58ace3ca3!2sBritannia%20Beach!5e0!3m2!1spt-BR!2sca!4v1678815554674!5m2!1spt-BR!2sca"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="legend">
+              <i class="fa fa-sharp fa-regular fa-location-arrow"></i>
+              <p>Britannia Beach, Ottawa, ON</p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="accordion-title form-section">
+        <div class="flex-container">
+          <div class="text">
+            <h3>Email Us</h3>
+          </div>
+          <div class="forms-container">
+            <div class="contact-form">
+              <form>
+                <label title="Full Name">
+                  Name:
+                  <br><input type="text" placeholder="Enter your complete name">
+                </label>
+                <label title="Email">
+                  Email:
+                  <br><input type="text" placeholder="Enter your best email">
+                </label>
+                <label title="Phone">
+                  Phone:
+                  <br><input type="text" placeholder="(999)999-9999">
+                </label>
+                <label title="Message">
+                  Message:
+                  <br><textarea placeholder="Enter your message"></textarea>
+                </label>
+                <div class="send-input">
+                  <button>Send email <i class="fa fa-solid fa-chevron-right"></i></button>
+                </div>
+              </form>
+            </div>
+            <div class="select-container">
+              <div class="select-method">
+                <p>Preferred contact method:</p>
+                <label title="Email">
+                  Email
+                  <input type="radio" id="email" name="contact" value="email">
+                </label>
+                <label title="Text message">
+                  Text message
+                  <input type="radio" id="text-message" name="contact" value="text-message">
+                </label>
+                <label title="Phone call">
+                  Phone call
+                  <input type="radio" id="phone-call" name="contact" value="phone-call">
+                </label>
+              </div>
+              <div class="select-options">
+                <p>Sign up to receive emails about:</p>
+                <label title="Blog news">
+                  Blog news
+                  <input type="checkbox" id="blog-news" name="method" value="blog-news">
+                </label>
+                <label title="Product news">
+                  Product news
+                  <input type="checkbox" id="product-news" name="method" value="product-news">
+                </label>
+                <label title="Service news">
+                  Service news
+                  <input type="checkbox" id="service-news" name="method" value="service-news">
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="accordion-title team-section">
+        <div class="flex-container">
+          <div class="text">
+            <h3>Our teams are here to help</h3>
+          </div>
+          <div class="team-container">
+            <div class="team-card rounded-img">
+              <h4>Communication Team</h4>
+              <img src="img/team.png" alt="Team">
+              <p>We care about our customer message</p>
+              <button>Contact <i class="fa fa-solid fa-chevron-right"></i></button>
+            </div>
+            <div class="team-card rounded-img">
+              <h4>Research Team</h4>
+              <img src="img/team-2.png" alt="Team">
+              <p>We care about our customer analysis</p>
+              <button>Contact <i class="fa fa-solid fa-chevron-right"></i></button>
+            </div>
+            <div class="team-card rounded-img">
+              <h4>Customer Experience team</h4>
+              <img src="img/team-3.png" alt="Team">
+              <p>We care about our customer experience</p>
+              <button>Contact <i class="fa fa-solid fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="more-link">
+          <a href="">view more<i class="fa fa-solid fa-chevron-down"></i></a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <h4>Pet Fun</h4>
+      <p>For any additional information, please do not hesitate to <a href="under-construction.html">contact us.</a></p>
+      <p class="copyright">&copy; Copyright</p>
+    </div>
+  </footer>
+</body>
+
+</html>

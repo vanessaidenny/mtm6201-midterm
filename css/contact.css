@@ -1,0 +1,191 @@
+/* DEFAULT STYLES */
+
+.legend {
+  justify-content: flex-start;
+}
+
+.legend i {
+  padding-right: 8px;
+}
+
+.accordion-title h3 {
+  background-color: var(--color-secondary);
+  color: var(--color-background);
+  padding: 8px 16px;
+}
+
+iframe  {
+  border: 1px solid var(--color-accent);
+  height: 200px;
+  width: 300px;
+}
+
+.contact-form, .select-container {
+  margin: 16px 0;
+}
+
+.contact-form form {
+  margin: 8px 0;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4px;
+}
+
+.contact-form input, .contact-form textarea {
+  border-width: 1px;
+  border-color: var(--color-accent);
+  border-radius: 10px;
+  padding: 4px 10px;
+  margin: 4px 0;
+}
+
+.contact-form textarea {
+  height: 80px;
+}
+
+.contact-form input::placeholder, .contact-form textarea::placeholder {
+  font-family: 'Nunito';
+  font-size: 0.7rem;
+}
+
+.send-input {
+  text-align: end;
+}
+
+.send-input input {
+  background-color: var(--color-tertiary);
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.select-container p {
+  font-weight: bold;
+}
+
+.select-container div {
+  padding-bottom: 8px;
+}
+
+.select-container label {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+
+.select-container input:checked {
+  accent-color: var(--color-secondary);
+}
+
+.team-container {
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.team-card {
+  align-items: center;
+  border-right: 1px solid var(--color-accent);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding-right: 20px;
+}
+
+.team-card:last-child {
+  border: 0;
+}
+
+button {
+  background-color: var(--color-tertiary);
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+  font-size: 14px;
+  padding: 5px 15px;
+}
+
+
+/* DESKTOP STYLES: above 1200px */
+@media screen and (min-width: 1200px) {
+
+  .info-section {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+  }
+
+  .info-section section {
+    width: 50%;
+  }
+
+  .info-section section, .form-section {
+    background-color: var(--color-white);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+  }
+
+  iframe {
+    height: 300px;
+    width: 480px;
+  }
+
+  .form-section h3 {
+    background-color: var(--color-white);
+  }
+
+  .team-section h3 {
+    background-color: var(--color-background);
+  }
+
+  .form-section h3, .team-section h3 {
+    color: var(--color-text);
+    padding: 0;
+  }
+
+  .contact-form input::placeholder, .contact-form textarea::placeholder {
+    font-size: 0.9rem;
+  }
+
+  form {
+    margin-top: 20px;
+  }
+
+  .contact-form input, textarea {
+    margin-top: 4px;
+  }
+
+  .contact-form label {
+    margin: 8px 0;
+  }
+
+  .forms-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact-form {
+    padding-right: 20px;
+    width: 70%;
+  }
+
+  .select-container {
+    border-left: 1px solid var(--color-accent);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 20px;
+    width: 30%;
+  }
+
+  .team-card {
+    padding: 20px 0;
+    row-gap: 8px;
+    width: 33%;
+  }
+
+}

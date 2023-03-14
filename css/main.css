@@ -6,6 +6,7 @@
   --color-accent: #BBBBBB;
   --color-background: #F8EFE7;
   --color-white: #FEFEFE;
+  --color-error: #e5f761;
 }
 
 /* DEFAULT STYLES */
@@ -228,4 +229,10 @@ section a i {
   height: 200px;
   width: 300px;
   object-fit: cover;
+}
+
+.square-img img:hover,
+.rounded-img img:hover,
+.rectangle-img img:hover {
+  opacity: 0.6;
 }

@@ -123,4 +123,11 @@
     display: block;
   }
 
+  section {
+    padding: 20px;
+  }
+  
+  section .more-link {
+    margin-bottom: 30px;
+  }
 }

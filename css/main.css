@@ -205,6 +205,10 @@ section a, section a:active {
   color: var(--color-primary);
 }
 
+section a:hover {
+  color: var(--color-text);
+}
+
 section a i {
   padding-left: 10px;
 }

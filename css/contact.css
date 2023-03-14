@@ -109,6 +109,10 @@ iframe  {
   padding: 5px 15px;
 }
 
+.send-input button:hover, .team-card button:hover {
+  background-color: var(--color-accent);
+}
+
 
 /* DESKTOP STYLES: above 1200px */
 @media screen and (min-width: 1200px) {

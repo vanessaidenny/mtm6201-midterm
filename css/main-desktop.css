@@ -117,6 +117,10 @@
     padding-left: 30px;
   }
   
+  header .banner button:hover {
+    background-color: var(--color-tertiary);
+  }
+
 
   /* CONTENT */
 

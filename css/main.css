@@ -10,6 +10,11 @@
 
 /* DEFAULT STYLES */
 
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
 body, p, button {
   font-family: 'Nunito';
 }
@@ -18,7 +23,6 @@ h1 {
   font-family: 'Berlin Sans FB Demi', sans-serif;
   font-size: 26px;
   font-weight: bold;
-  line-height: 1.2;
   padding-bottom: 6px;
 }
 
@@ -26,7 +30,6 @@ h2 {
   font-family: 'Berlin Sans FB Demi', sans-serif;
   font-size: 21px;
   font-weight: bold;
-  line-height: 1.2;
   padding-bottom: 6px;
 }
 
@@ -34,7 +37,6 @@ h3 {
   font-family: 'Berlin Sans FB Demi', sans-serif;
   font-size: 18px;
   font-weight: bold;
-  line-height: 1.2;
   padding-bottom: 6px;
 }
 
@@ -42,19 +44,28 @@ h4 {
   font-family: 'Berlin Sans FB Demi', sans-serif;
   font-size: 18px;
   font-weight: bold;
-  line-height: 1.2;
   padding-bottom: 6px;
 }
 
 p {
   font-size: 16px;
-  line-height: 1.2;
   padding-bottom: 6px;
 }
 
 button {
   cursor: pointer;
+  font-weight: bold;
 }
+
+button span {
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.container {
+  padding: 1em;
+}
+
 
 /* HEADER */
 
@@ -121,4 +132,33 @@ header .banner button {
   border-radius: 30px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   padding: 5px 15px;
+}
+
+header .banner p {
+  width: 50%;
+}
+
+
+/* FOOTER */
+
+footer {
+  background-color: var(--color-accent);
+  bottom: 0;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+}
+
+footer p {
+  margin-bottom: 0;
+  margin-top: 0.5em;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: var(--color-text);
+}
+
+footer .copyright {
+  font-size: 0.7rem;
 }

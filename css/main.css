@@ -130,7 +130,7 @@ header .menu-mobile {
   padding: 0 25px;
 }
 
-/* hide menu and search bar */
+/* hide menu and search bar for mobile version */
 header .container .menu, header .container .search {
   display: none;
 }
@@ -161,6 +161,10 @@ header .banner button:hover {
 
 header .banner p {
   width: 50%;
+}
+
+.search label p {
+  display: none;
 }
 
 

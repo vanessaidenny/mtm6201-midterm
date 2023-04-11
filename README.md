@@ -1,7 +1,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/vanessaidenny/mtm6201-midterm?color=blueviolet&style=plastic)
 ![GitHub contributors](https://img.shields.io/github/contributors/vanessaidenny/mtm6201-midterm?color=brightgreen&style=plastic)
 
-# 💻 GitHub Pages Repository
+# 💻 Midterm Repository
 
 This midterm project is to build a responsive website based on your website prototype designed for the Design Foundation course.
 
